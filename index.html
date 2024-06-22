@@ -100,18 +100,18 @@
         gsap.from(".section5",{  
             scrollTrigger:{
                 trigger:".section5",
-                start:"top center",
-                end:"10% 10%",
+                start:"top top",
+                end:"bottom center",
                 pin:true,
                 scrub:1,
-                toggleActions:"play none none none",
-                // markers:true
+                // toggleActions:"play none none none",
+                markers:true
             },
             // bottom:"-100%",
-            scale:0,
+            // scale:0,
             rotate:360,
-            background:"blue"
-            // opacity:0
+            backgroundColor:"blue",
+            opacity:0
         })
 
       ////////////////////
