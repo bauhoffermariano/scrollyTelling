@@ -6,11 +6,11 @@
 body{
     height: 2500px;
     background-color: #000000;
+    overflow-x: hidden;
 }
 section{
     position: relative;
     height: 100vh;
-    overflow-x: hidden;
     border-bottom: solid 1px white;
     display: flex;
     justify-content: center;
